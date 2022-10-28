@@ -6,7 +6,7 @@ const GlobaLStyle = createGlobalStyle`
     margin: 0px;
     box-sizing: border-box;
   }
-
+              
   body{
     font-family: 'Roboto',sans-serif;
   }

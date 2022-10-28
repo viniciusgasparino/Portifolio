@@ -1,10 +1,11 @@
+import Header from "../src/components/header/Header"
 
 
 function HomePage(){
   return(
-    <div>
-      ola mundo
-    </div>
+    <>
+      <Header/>
+    </>
   )
 }
 
