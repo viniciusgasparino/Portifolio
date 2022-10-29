@@ -2,13 +2,13 @@ import styled from "styled-components"
 
 
 const StyledHeader = styled.header`
-  background-color: yellowgreen;
+  background-color: #0e0c11;
   height: 90px;
   display: flex;
   align-items: center;
   padding: 0 100px;
   gap:20px;
-
+  color: white;
 `
 
 const StyledLogo = styled.div`
