@@ -1,52 +1,61 @@
 import styled from "styled-components"
 
+
 const StyledHeader = styled.header`
-  display: flex;
-  min-height: 70px;
-  background-color: red;
-  width: 100%;
-  gap: 100px;
-`
-
-const StyledContainer = styled.div`
-  width: 50%;
-  flex-direction: column;
   background-color: yellowgreen;
-  align-items: center;
-  justify-content: center;
-`
-
-const StyledMenu = styled.ul`
+  height: 90px;
   display: flex;
-  gap: 50px;
   align-items: center;
-  justify-content: center;
-  margin-top: 21px;
+  padding: 0 100px;
+  gap:20px;
+
 `
 
-const StyledLi = styled.li`
-  flex-direction: column;
-  list-style-type: none;
-  font-size: 25px;
+const StyledLogo = styled.div`
+  flex: 1;
+  margin-left: -50px;
+
+  h2{
+    font-size: 35px;
+  }
+
+  span{
+    font-size: 20px;
+  }
+`
+
+const StyledUl = styled.ul`
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  li{
+    list-style-type: none;
+  }
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+`
+
+const StyledMenu = styled.a`
+  cursor: pointer;
+  font-size: 20px;
   font-weight: bold;
 `
-
-
 
 function Header(){
   return(
     <StyledHeader>
-      <StyledContainer>
+      <StyledLogo>
         <h2>Vinicius</h2>
-        <h3>Meu portifolio</h3>
-      </StyledContainer>
-      <StyledContainer>
-        <StyledMenu>
-          <StyledLi>Home</StyledLi>
-          <StyledLi>Projetos</StyledLi>
-          <StyledLi>Contato</StyledLi>
-        </StyledMenu>
-      </StyledContainer>
+        <p>Meu Portifolio</p>
+      </StyledLogo>
+      <StyledUl>
+        <li><StyledMenu>Home</StyledMenu></li>
+        <li><StyledMenu>Projetos</StyledMenu></li>
+        <li><StyledMenu>Contratos</StyledMenu></li>
+      </StyledUl>
     </StyledHeader>
   )
 }
