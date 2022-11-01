@@ -4,7 +4,7 @@ import Footer from "../src/components/footer/Footer"
 
 const StyledContact = styled.div`
   background-color: yellow;
-  height: 1000px;
+  height: 800px; 
 `
 
 const StyledContainer = styled.div`
