@@ -1,11 +1,13 @@
 import styled from "styled-components"
+import Subtitle from "../subtitle/Subtitle"
+
 
 const StyledSection = styled.section`
-  background-color: red;
+  margin-top: 30px;
   padding: 100px 0;
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 800px;
 `
 
 const StyledContainer = styled.div`
@@ -16,15 +18,26 @@ const StyledContainer = styled.div`
   @media (max-width: 1200px){
     width: 100%;
   }
-` 
+`
+ 
+const StyledText = styled.p`
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+`
+
 
 function Section(){
   return(     
     <StyledSection>
       <StyledContainer>
-        <h1>Vinicius</h1>
-        <p>FullStack Developer</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <Subtitle text="Vinicius"/>
+        <StyledText>FullStack Developer</StyledText>
+        <StyledText>Lorem ipsum,
+           dolor sit amet consectetur adipisicing elit,
+           dolor sit amet consectetur adipisicing elit.
+        </StyledText>
         <button>dddddd</button>
       </StyledContainer>
       <StyledContainer>

@@ -1,14 +1,16 @@
+import Subtitle from "../subtitle/Subtitle"
 import styled from "styled-components"
 
 
+
 const StyledHeader = styled.header`
-  background-color: #0e0c11;
   height: 90px;
   display: flex;
   align-items: center;
   padding: 0 100px;
   gap:20px;
   color: white;
+  border-bottom: 1px solid white;
 `
 
 const StyledLogo = styled.div`
@@ -36,7 +38,6 @@ const StyledUl = styled.ul`
   @media screen and (max-width: 500px) {
     display: none;
   }
-
 `
 
 const StyledMenu = styled.a`
@@ -49,7 +50,7 @@ function Header(){
   return(
     <StyledHeader>
       <StyledLogo>
-        <h2>Vinicius</h2>
+        <Subtitle text="Vinicius"/>
         <p>Meu Portifolio</p>
       </StyledLogo>
       <StyledUl>    

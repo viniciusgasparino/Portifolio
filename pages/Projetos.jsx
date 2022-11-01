@@ -20,10 +20,17 @@ const StyledCard = styled.div`
   background-color: yellow;
 `
 
+const StyledTitulo = styled.h1`
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+`
+
 function Projetos(){
   return(
     <>
-      <h1>Meus projetos</h1>  
+      <StyledTitulo>Meus projetos</StyledTitulo>  
       <StyledContainer>
         <StyledCard>
           <h3>Jogo da Velha</h3>

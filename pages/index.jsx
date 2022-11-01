@@ -1,5 +1,6 @@
 import Header from "../src/components/header/Header"
 import Section from "../src/components/section/Section"
+import Footer from "../src/components/footer/Footer"
 
 
 
@@ -8,6 +9,7 @@ function HomePage(){
     <>
       <Header/>
       <Section/>
+      <Footer/>
     </>
   )
 }

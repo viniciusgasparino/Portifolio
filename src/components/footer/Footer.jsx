@@ -1,16 +1,17 @@
 import styled from "styled-components"
 
 const StyledFooter = styled.footer`
-  height: 100px;
   text-align: center;
+  border-top: 1px solid white;
+  height: 60px;
 `
 
 function Footer(){
   return(
     <>
-      <Footer>
+      <StyledFooter>
         <p>Criado por Vinicius Gasparino</p>
-      </Footer>
+      </StyledFooter>
     </>
   )
 }
