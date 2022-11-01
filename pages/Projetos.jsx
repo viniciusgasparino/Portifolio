@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Button from "../src/components/button/Button"
-
+import Header from "../src/components/header/Header"
+import Footer from "../src/components/footer/Footer"
 
 const StyledContainer = styled.div`
   display: flex;
@@ -37,6 +38,7 @@ const StyledText = styled.p`
 function Projetos(){
   return(
     <>
+      <Header/>
       <StyledTitulo>Meus projetos</StyledTitulo>  
       <StyledContainer>
         <StyledCard>
@@ -55,6 +57,7 @@ function Projetos(){
           <Button text="sssss"/>
         </StyledCard>
       </StyledContainer>
+      <Footer/>
     </>
   )
 }

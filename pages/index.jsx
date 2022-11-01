@@ -10,6 +10,7 @@ function HomePage(){
       <Header/>
       <Section/>
       <Footer/>
+      <Section/>
     </>
   )
 }

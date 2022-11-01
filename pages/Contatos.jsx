@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import Header from "../src/components/header/Header"
+import Footer from "../src/components/footer/Footer"
 
 const StyledContact = styled.div`
   background-color: yellow;
@@ -14,6 +16,8 @@ const StyledContainer = styled.div`
 
 function Contatos(){
   return(
+    <>
+    <Header/>
     <StyledContact>
       <h2>Entre em contato</h2>
       <StyledContainer>
@@ -22,6 +26,8 @@ function Contatos(){
         <p>Whatssap: 11974766267</p>
       </StyledContainer>
     </StyledContact>
+    <Footer/>
+    </>
   )
 }
 

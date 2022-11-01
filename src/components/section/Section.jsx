@@ -24,26 +24,28 @@ const StyledText = styled.p`
   color: white;
   font-size: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 `
 
 
 function Section(){
-  return(     
-    <StyledSection>
-      <StyledContainer>
-        <Subtitle text="Vinicius"/>
-        <StyledText>FullStack Developer</StyledText>
-        <StyledText>Lorem ipsum,
-           dolor sit amet consectetur adipisicing elit,
-           dolor sit amet consectetur adipisicing elit.
-        </StyledText>
-        <Button text="Ver Projetos"/>
-      </StyledContainer>
-      <StyledContainer>
-        <img src="" />
-      </StyledContainer>
-    </StyledSection>
+  return(  
+    <>
+      <StyledSection>
+        <StyledContainer>
+          <Subtitle text="Vinicius"/>
+          <StyledText>FullStack Developer</StyledText>
+          <StyledText>Lorem ipsum,
+            dolor sit amet consectetur adipisicing elit,
+            dolor sit amet consectetur adipisicing elit.
+          </StyledText>
+          <Button text="Ver Projetos"/>
+        </StyledContainer>
+        <StyledContainer>
+          <img src="" />
+        </StyledContainer>
+      </StyledSection>
+    </> 
   )
 }
 

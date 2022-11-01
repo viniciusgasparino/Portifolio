@@ -2,7 +2,6 @@ import Subtitle from "../subtitle/Subtitle"
 import styled from "styled-components"
 import Link from "next/link"
 
-
 const StyledHeader = styled.header`
   height: 90px;
   display: flex;
@@ -45,7 +44,6 @@ const StyledUl = styled.ul`
   }
 `
   
-
 function Header(){
   return(
     <StyledHeader>
