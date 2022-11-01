@@ -25,7 +25,13 @@ const StyledTitulo = styled.h1`
   color: white;
   font-size: 45px;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
+`
+
+const StyledText = styled.p`
+  color: white;
+  font-size: 20px;
 `
 
 function Projetos(){
@@ -35,17 +41,17 @@ function Projetos(){
       <StyledContainer>
         <StyledCard>
           <h3>Jogo da Velha</h3>
-          <p>oooo oooo ddddasd dadadad</p>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
           <Button text="sssss"/>
         </StyledCard>
         <StyledCard>
           <h3>Social Dev</h3>
-          <p>oooo oooo dadad  dasdad adasdad</p>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
           <Button text="sssss"/>
         </StyledCard>
         <StyledCard>
           <h3>Social Dev</h3>
-          <p>oooo oooo dada dadada dadad dadad</p>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
           <Button text="sssss"/>
         </StyledCard>
       </StyledContainer>

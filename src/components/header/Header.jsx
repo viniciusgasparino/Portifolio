@@ -1,5 +1,6 @@
 import Subtitle from "../subtitle/Subtitle"
 import styled from "styled-components"
+import Link from "next/link"
 
 
 const StyledHeader = styled.header`
@@ -32,18 +33,18 @@ const StyledUl = styled.ul`
 
   li{
     list-style-type: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
   }
 
   @media screen and (max-width: 500px) {
     display: none;
   }
 `
-
-const StyledMenu = styled.a`
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-`    
+  
 
 function Header(){
   return(
@@ -53,9 +54,9 @@ function Header(){
         <p>Meu Portifolio</p>
       </StyledLogo>
       <StyledUl>    
-        <li><StyledMenu>Home</StyledMenu></li>    
-        <li><StyledMenu>Projetos</StyledMenu></li>
-        <li><StyledMenu>Contatos</StyledMenu></li>
+        <Link href="/"><li>Home</li></Link>    
+        <Link href="/Projetos"><li>Projetos</li></Link>
+        <Link href="/Contatos"><li>Contatos</li></Link>
       </StyledUl>
     </StyledHeader>
   )
