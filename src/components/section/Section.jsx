@@ -13,19 +13,18 @@ const StyledContainer = styled.div`
   margin-left: 100px;
   width: 50%;
 
-
   @media (max-width: 1200px){
     width: 100%;
   }
 ` 
 
 function Section(){
-  return(
+  return(     
     <StyledSection>
       <StyledContainer>
-        <p>OLa</p>
         <h1>Vinicius</h1>
-        <p>OLa dsds ddad dsadasd dadasdasdasdwad</p>
+        <p>FullStack Developer</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <button>dddddd</button>
       </StyledContainer>
       <StyledContainer>
