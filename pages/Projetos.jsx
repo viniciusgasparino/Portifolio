@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Button from "../src/components/button/Button"
 
 
 const StyledContainer = styled.div`
@@ -35,17 +36,17 @@ function Projetos(){
         <StyledCard>
           <h3>Jogo da Velha</h3>
           <p>oooo oooo ddddasd dadadad</p>
-          <button>Ver projeto</button>
+          <Button text="sssss"/>
         </StyledCard>
         <StyledCard>
           <h3>Social Dev</h3>
           <p>oooo oooo dadad  dasdad adasdad</p>
-          <button>Ver projeto</button>
+          <Button text="sssss"/>
         </StyledCard>
         <StyledCard>
           <h3>Social Dev</h3>
           <p>oooo oooo dada dadada dadad dadad</p>
-          <button>Ver projeto</button>
+          <Button text="sssss"/>
         </StyledCard>
       </StyledContainer>
     </>

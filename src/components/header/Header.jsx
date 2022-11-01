@@ -2,7 +2,6 @@ import Subtitle from "../subtitle/Subtitle"
 import styled from "styled-components"
 
 
-
 const StyledHeader = styled.header`
   height: 90px;
   display: flex;

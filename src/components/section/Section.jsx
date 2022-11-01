@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Subtitle from "../subtitle/Subtitle"
-
+import Button from "../button/Button"
 
 const StyledSection = styled.section`
   margin-top: 30px;
@@ -19,7 +19,7 @@ const StyledContainer = styled.div`
     width: 100%;
   }
 `
- 
+
 const StyledText = styled.p`
   color: white;
   font-size: 20px;
@@ -38,7 +38,7 @@ function Section(){
            dolor sit amet consectetur adipisicing elit,
            dolor sit amet consectetur adipisicing elit.
         </StyledText>
-        <button>dddddd</button>
+        <Button text="Ver Projetos"/>
       </StyledContainer>
       <StyledContainer>
         <img src="" />

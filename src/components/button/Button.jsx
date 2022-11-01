@@ -1,16 +1,22 @@
 import styled from "styled-components"
 
+
 const StyledButton = styled.button`
-  width: 50px;
-  height: 20px;
-  
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  color: green;
+  font-Weight: bold;
+  border-Radius: 10px;
 `
-
-
-function Button(){
+ 
+function Button({text}){
   return(
     <>
-      <StyledButton/>
+      <StyledButton>
+        {text}
+      </StyledButton>
     </>
   )
 }
