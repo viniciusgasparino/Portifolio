@@ -36,13 +36,14 @@ const StyledUl = styled.ul`
   @media screen and (max-width: 500px) {
     display: none;
   }
+
 `
 
 const StyledMenu = styled.a`
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-`
+`    
 
 function Header(){
   return(
@@ -51,10 +52,10 @@ function Header(){
         <h2>Vinicius</h2>
         <p>Meu Portifolio</p>
       </StyledLogo>
-      <StyledUl>
-        <li><StyledMenu>Home</StyledMenu></li>
+      <StyledUl>    
+        <li><StyledMenu>Home</StyledMenu></li>    
         <li><StyledMenu>Projetos</StyledMenu></li>
-        <li><StyledMenu>Contratos</StyledMenu></li>
+        <li><StyledMenu>Contatos</StyledMenu></li>
       </StyledUl>
     </StyledHeader>
   )
