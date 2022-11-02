@@ -3,8 +3,7 @@ import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
 
 const StyledContact = styled.div`
-  background-color: yellow;
-  height: 800px; 
+  height: 700px; 
 `
 
 const StyledContainer = styled.div`
@@ -14,12 +13,20 @@ const StyledContainer = styled.div`
   margin-top: 30px;
 `
 
+const StyledTitulo = styled.h2`
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+`
+
 function Contatos(){
   return(
     <>
     <Header/>
     <StyledContact>
-      <h2>Entre em contato</h2>
+      <StyledTitulo>Entre em contato</StyledTitulo>
       <StyledContainer>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
         <p>Email: vinciiusgasparino@yahoo.com.br</p>
