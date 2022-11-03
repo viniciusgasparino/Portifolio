@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
 
+
 const StyledContact = styled.div`
   height: 700px; 
 `
@@ -9,8 +10,11 @@ const StyledContact = styled.div`
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
+  align-items: left;
+  margin-left: 40px;
+  gap: 30px;
+  color: white;
+  font-size: 25px;
 `
 
 const StyledTitulo = styled.h2`
@@ -25,12 +29,12 @@ function Contatos(){
   return(
     <>
     <Header/>
-    <StyledContact>
+    <StyledContact>   
       <StyledTitulo>Entre em contato</StyledTitulo>
       <StyledContainer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-        <p>Email: vinciiusgasparino@yahoo.com.br</p>
-        <p>Whatssap: 11974766267</p>
+        <p><span>Icon</span> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <p><span>Icon</span> Email: vinciiusgasparino@yahoo.com.br</p>
+        <p><span>Icon</span> Whatssap: 11974766267</p>
       </StyledContainer>
     </StyledContact>
     <Footer/>

@@ -14,6 +14,7 @@ const StyledSection = styled.section`
     flex-direction: column;
     width: 100%;
     height: 100%;
+    padding-right: 170px;
   }
 `
 
