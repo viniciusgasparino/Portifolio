@@ -4,10 +4,19 @@ import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
 import Subtitle from "../src/components/subtitle/Subtitle"
 
+const StyledCenter = styled.div`
+    max-width: 1000px;
+    margin: 0 auto;
+`
+
 const StyledContainer = styled.div`
   display: flex;
-  justify-content: space-around;
-  height: 600px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 800px;
+  padding: 20px 0;
+  
+  
 
   @media (max-width:768px){
     flex-direction: column;
@@ -24,7 +33,7 @@ const StyledCard = styled.div`
   align-items: center;
   justify-content: center;
   height: 300px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   width: 300px;
   gap: 10px;
   border: 3px solid white;
@@ -54,7 +63,8 @@ function Projetos(){
   return(
     <>
       <Header/>
-      <StyledTitulo>Meus projetos</StyledTitulo>  
+      <StyledTitulo>Meus projetos</StyledTitulo> 
+      <StyledCenter>
       <StyledContainer>
         <StyledCard>
           <StyledH3>Social Dev</StyledH3>
@@ -71,7 +81,28 @@ function Projetos(){
           <StyledText>oooo oooo ddddasd dadadad</StyledText>
           <Button text="sssss"/>
         </StyledCard>
-      </StyledContainer>
+        <StyledCard>
+        <StyledH3>Hotel Next</StyledH3>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
+          <Button text="sssss"/>
+        </StyledCard>
+        <StyledCard>
+        <StyledH3>Hotel Next</StyledH3>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
+          <Button text="sssss"/>
+        </StyledCard>
+        <StyledCard>
+        <StyledH3>Hotel Next</StyledH3>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
+          <Button text="sssss"/>
+        </StyledCard>
+        <StyledCard>
+        <StyledH3>Hotel Next</StyledH3>
+          <StyledText>oooo oooo ddddasd dadadad</StyledText>
+          <Button text="sssss"/>
+        </StyledCard>
+      </StyledContainer>~
+      </StyledCenter> 
       <Footer/>
     </>
   )

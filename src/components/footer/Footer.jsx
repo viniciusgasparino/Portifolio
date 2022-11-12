@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
 function Footer(){
   return(
     <>
-      <StyledFooter>
+      <StyledFooter>            
         <p>Criado por Vinicius Gasparino</p>
       </StyledFooter>
     </>
