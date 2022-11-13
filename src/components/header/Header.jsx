@@ -44,7 +44,7 @@ const StyledUl = styled.ul`
   }
 `
   
-function Header(){
+function Header({setMenuIsVisible}){
   return(
     <StyledHeader>
       <StyledLogo>
@@ -55,6 +55,7 @@ function Header(){
         <Link href="/"><li>Home</li></Link>    
         <Link href="/Projetos"><li>Projetos</li></Link>
         <Link href="/Contatos"><li>Contatos</li></Link>
+        <span onClick={()=>{setMenuIsVisible(true)}}>X</span>
       </StyledUl>
     </StyledHeader>
   )

@@ -17,7 +17,6 @@ const StyledContainer = styled.div`
   padding: 20px 0;
   
   
-
   @media (max-width:768px){
     flex-direction: column;
     align-items:center;
@@ -26,7 +25,6 @@ const StyledContainer = styled.div`
     margin-bottom: 30px;
   }
 `
-
 const StyledCard = styled.div`
   flex-direction: column;
   display: flex;
