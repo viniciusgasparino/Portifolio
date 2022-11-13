@@ -42,6 +42,16 @@ const StyledUl = styled.ul`
   @media screen and (max-width: 500px) {
     display: none;
   }
+
+`
+
+const StyledIcon = styled.span`
+  display: none;
+
+  @media screen and (max-width: 500px) {
+    display: flex;
+  }
+
 `
   
 function Header({setMenuIsVisible}){
@@ -55,8 +65,8 @@ function Header({setMenuIsVisible}){
         <Link href="/"><li>Home</li></Link>    
         <Link href="/Projetos"><li>Projetos</li></Link>
         <Link href="/Contatos"><li>Contatos</li></Link>
-        <span onClick={()=>{setMenuIsVisible(true)}}>X</span>
       </StyledUl>
+      <StyledIcon onClick={()=>{setMenuIsVisible(true)}}>Menu</StyledIcon>
     </StyledHeader>
   )
 }

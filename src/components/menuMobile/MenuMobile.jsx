@@ -37,6 +37,15 @@ const StyledContainer = styled.div`
     transform: scale(0.7);
     transition: .7s;
   }
+  
+  li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
 
   ${({ isVisible }) => isVisible && css`
     opacity: 1;
@@ -59,8 +68,8 @@ function MenuMobile({menuIsVisible,setMenuIsVisible}){
 
   return(
     <StyledContainer isVisible={menuIsVisible}>
-      <span onClick={()=>{setMenuIsVisible(false)}}>X</span>
-      <nav>    
+      <nav>   
+        <span onClick={()=>{setMenuIsVisible(false)}}>X</span> 
         <Link href="/"><li>Home</li></Link>    
         <Link href="/Projetos"><li>Projetos</li></Link>
         <Link href="/Contatos"><li>Contatos</li></Link>

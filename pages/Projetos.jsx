@@ -2,7 +2,9 @@ import styled from "styled-components"
 import Button from "../src/components/button/Button"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
-import Subtitle from "../src/components/subtitle/Subtitle"
+import MenuMobile from "../src/components/menuMobile/MenuMobile"
+import {useState} from "react"
+
 
 const StyledCenter = styled.div`
     max-width: 1000px;
@@ -58,9 +60,15 @@ const StyledText = styled.p`
 `
 
 function Projetos(){
+  const [menuIsVisible,setMenuIsVisible] = useState(false)
+
   return(
     <>
-      <Header/>
+      <MenuMobile
+        menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
+      />
+      <Header setMenuIsVisible={setMenuIsVisible}/>
       <StyledTitulo>Meus projetos</StyledTitulo> 
       <StyledCenter>
       <StyledContainer>

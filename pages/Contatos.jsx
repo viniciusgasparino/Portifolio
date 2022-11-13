@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
+import MenuMobile from "../src/components/menuMobile/MenuMobile"
+import {useState} from "react"
 
 
 const StyledContact = styled.div`
@@ -26,18 +28,24 @@ const StyledTitulo = styled.h2`
 `
 
 function Contatos(){
+  const [menuIsVisible,setMenuIsVisible] = useState(false)
+
   return(
     <>
-    <Header/>
-    <StyledContact>   
-      <StyledTitulo>Entre em contato</StyledTitulo>
-      <StyledContainer>
-        <p><span>Icon</span> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-        <p><span>Icon</span> Email: vinciiusgasparino@yahoo.com.br</p>
-        <p><span>Icon</span> Whatssap: 11974766267</p>
-      </StyledContainer>
-    </StyledContact>
-    <Footer/>
+      <MenuMobile
+        menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
+      />
+      <Header setMenuIsVisible={setMenuIsVisible}/>
+      <StyledContact>   
+        <StyledTitulo>Entre em contato</StyledTitulo>
+        <StyledContainer>
+          <p><span>Icon</span> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+          <p><span>Icon</span> Email: vinciiusgasparino@yahoo.com.br</p>
+          <p><span>Icon</span> Whatssap: 11974766267</p>
+        </StyledContainer>
+      </StyledContact>
+      <Footer/>
     </>
   )
 }
