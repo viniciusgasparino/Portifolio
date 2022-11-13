@@ -1,12 +1,14 @@
 import styled from "styled-components"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
-import MenuMobile from "../src/components/menuMobile/MenuMobile"
-import {useState} from "react"
 
 
 const StyledContact = styled.div`
-  height: 700px; 
+  min-height: 800px; 
+
+  @media (max-width:700px){
+    width: 100%;
+  }
 `
 
 const StyledContainer = styled.div`
@@ -17,6 +19,11 @@ const StyledContainer = styled.div`
   gap: 30px;
   color: white;
   font-size: 25px;
+
+  @media (max-width:700px){
+    flex-direction: column;
+    margin-left: 0px;
+  }
 `
 
 const StyledTitulo = styled.h2`
@@ -28,15 +35,9 @@ const StyledTitulo = styled.h2`
 `
 
 function Contatos(){
-  const [menuIsVisible,setMenuIsVisible] = useState(false)
-
   return(
     <>
-      <MenuMobile
-        menuIsVisible={menuIsVisible}
-        setMenuIsVisible={setMenuIsVisible}
-      />
-      <Header setMenuIsVisible={setMenuIsVisible}/>
+      <Header />
       <StyledContact>   
         <StyledTitulo>Entre em contato</StyledTitulo>
         <StyledContainer>
