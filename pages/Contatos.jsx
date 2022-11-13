@@ -21,8 +21,8 @@ const StyledContainer = styled.div`
   font-size: 25px;
 
   @media (max-width:700px){
-    flex-direction: column;
-    margin-left: 0px;
+    padding-left: 10px;
+    font-size: 18px;
   }
 `
 
