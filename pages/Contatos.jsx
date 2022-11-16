@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
+import {FaGithub,FaEnvelope,FaWhatsapp} from "react-icons/fa";
 
 
 const StyledContact = styled.div`
@@ -19,6 +20,12 @@ const StyledContainer = styled.div`
   gap: 30px;
   color: white;
   font-size: 25px;
+
+  p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
   @media (max-width:700px){
     padding-left: 10px;
@@ -41,9 +48,15 @@ function Contatos(){
       <StyledContact>   
         <StyledTitulo>Entre em contato</StyledTitulo>
         <StyledContainer>
-          <p><span>Icon</span> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-          <p><span>Icon</span> Email: vinciiusgasparino@yahoo.com.br</p>
-          <p><span>Icon</span> Whatssap: 11974766267</p>
+          <p><FaGithub fontSize="55" cursor="pointer"/> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing
+          </p>
+          <p><FaEnvelope fontSize="45"/> 
+            Email: vinciusgasparino@yahoo.com.br
+          </p>
+          <p><FaWhatsapp fontSize="45" color="green"/>
+            Whatssap: 11974766267
+          </p>
         </StyledContainer>
       </StyledContact>
       <Footer/>
