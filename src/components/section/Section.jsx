@@ -48,16 +48,17 @@ function Section(){
             dolor sit amet consectetur adipisicing elit,
             dolor sit amet consectetur adipisicing elit.
           </StyledText>
-          <Button text="Ver Projetos"/>
+          <a 
+            target="_black" 
+            href="download/curriculoVinicius.pdf"
+            download="curriculoVinicius.pdf"
+            //type="application.pdf"
+          >
+            <Button text="Baixar Curriculo"/>
+          </a>
         </StyledContainer>
         <StyledContainer>
-        <Subtitle text="Vinicius"/>
-          <StyledText>FullStack Developer</StyledText>
-          <StyledText>Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit,
-            dolor sit amet consectetur adipisicing elit.
-          </StyledText>
-          <Button text="Ver Projetos"/>
+          
         </StyledContainer>
       </StyledSection>
     </> 

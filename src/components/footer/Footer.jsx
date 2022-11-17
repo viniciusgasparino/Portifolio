@@ -6,7 +6,7 @@ const StyledFooter = styled.footer`
   padding: 20px 0;
   color: white;
   font-size: 20px;
-  height: 50px;
+  min-height: 100px;
 `
 
 function Footer(){

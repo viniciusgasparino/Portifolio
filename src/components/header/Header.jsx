@@ -50,7 +50,6 @@ const StyledUl = styled.ul`
     text-decoration: none;
   }
 
-
 `
   
 function Header(){

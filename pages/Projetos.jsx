@@ -54,6 +54,14 @@ const StyledText = styled.p`
   color: white;
   font-size: 18px;
   margin: 10px 0;
+  text-align: center;
+`
+
+const StyledLink = styled.a`
+  color: #f41010;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
 `
 
 function Projetos(){
@@ -65,38 +73,45 @@ function Projetos(){
       <StyledContainer>
         <StyledCard>
           <StyledH3>Social Dev</StyledH3>
-          <StyledText>oooo</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>jogo da velha</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad oooo oooo ddddasd dadadad dasdasdasdasdsadasd</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
-          <StyledText>oooo oooo ddddasd dadadad</StyledText>
-          <Button text="sssss"/>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
       </StyledContainer>~
       </StyledCenter> 
