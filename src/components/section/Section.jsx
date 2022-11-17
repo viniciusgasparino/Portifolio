@@ -29,9 +29,19 @@ const StyledContainer = styled.div`
   }
 `
 
+const StyledH2 = styled.h2`
+  color: white;
+  font-size: 25px;
+`
+
+const StyledH3 = styled.h3`
+  color: lightgreen;
+  font-size: 20px;
+`
+
 const StyledText = styled.p`
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
   margin-bottom: 50px;
 `
@@ -43,16 +53,22 @@ function Section(){
       <StyledSection>
         <StyledContainer>
           <Subtitle text="Vinicius"/>
-          <StyledText>FullStack Developer</StyledText>
-          <StyledText>Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit,
-            dolor sit amet consectetur adipisicing elit.
+          <StyledText>FullStack, Frond-End, and Back-end Jr Developer</StyledText>
+          <StyledH2>Skills</StyledH2>
+          <StyledText>
+            <StyledH3>
+              Front-End:
+            </StyledH3>
+              Html, Css, JavaScript, ReactJs, nextJs, Styled-Components, Jquery.
+            <StyledH3>
+              Back-End:
+            </StyledH3>
+             Nodejs, NextJs, PHP, Express, MySql, MongoDb, Mongoose.
           </StyledText>
           <a 
             target="_black" 
             href="download/curriculoVinicius.pdf"
             download="curriculoVinicius.pdf"
-            //type="application.pdf"
           >
             <Button text="Baixar Curriculo"/>
           </a>
