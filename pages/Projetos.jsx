@@ -1,7 +1,15 @@
 import styled from "styled-components"
-import Button from "../src/components/button/Button"
 import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
+import Card from "../src/components/card/Card"
+
+const StyledTitulo = styled.h2`
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+`
 
 const StyledCenter = styled.div`
     max-width: 1000px;
@@ -15,7 +23,6 @@ const StyledContainer = styled.div`
   min-height: 800px;
   padding: 20px 0;
   
-  
   @media (max-width:700px){
     flex-direction: column;
     align-items:center;
@@ -24,45 +31,6 @@ const StyledContainer = styled.div`
     margin-bottom: 30px;
   }
 `
-const StyledCard = styled.div`
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  margin-bottom: 20px;
-  width: 300px;
-  gap: 10px;
-  border: 3px solid white;
-  padding: 0 30px;
-`
-
-const StyledTitulo = styled.h2`
-  color: white;
-  font-size: 35px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
-`
-
-const StyledH3 = styled.h3`
-  color: lightgreen;
-  font-size: 25px;
-`
-
-const StyledText = styled.p`
-  color: white;
-  font-size: 18px;
-  margin: 10px 0;
-  text-align: center;
-`
-
-const StyledLink = styled.a`
-  color: #f41010;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-`
 
 function Projetos(){
   return(
@@ -70,58 +38,38 @@ function Projetos(){
       <Header />
       <StyledTitulo>Meus projetos</StyledTitulo> 
       <StyledCenter>
-      <StyledContainer>
-        <StyledCard>
-          <StyledH3>Social Dev</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a 
-            target="_black" 
-            href="https://vercel.com/viniciusgasparino/social-dev">
-            <Button text="Ver projeto"/>
-          </a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>jogo da velha</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a 
-            target="_black" 
-            href="https://react-jogo-da-velha-flame.vercel.app/">
-            <Button text="Ver projeto"/>
-          </a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Calculadora</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a 
-            target="_black" 
-            href="https://calculadora-one-puce.vercel.app/">
-            <Button text="Ver projeto"/>
-          </a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Hotel Next</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a 
-            target="_black" 
-            href="https://hotelnext.vercel.app/">
-            <Button text="Ver projeto"/>
-          </a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Lista de Tarefas</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a 
-            target="_black" 
-            href="https://todolist-flame-seven.vercel.app/">
-            <Button text="Ver projeto"/>
-          </a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-      </StyledContainer>~
+        <StyledContainer>
+          <Card
+            projeto = "Social Dev"
+            descricao = "lorem impsum lorem ipsum"
+            site = "http://localhost:3000/Projetos"
+            codigo= "#"
+          />
+          <Card
+            projeto = "Jogo da Velha"
+            descricao = "lorem impsum lorem ipsum"
+            site = "www.google.com"
+            codigo= "#"
+          />
+          <Card
+            projeto = "Calculadora"
+            descricao = "lorem impsum lorem ipsum"
+            site = "www.google.com"
+            codigo= "#"
+          />
+          <Card
+            projeto = "Hotel Next"
+            descricao = "lorem impsum lorem ipsum"
+            site = "www.google.com"
+            codigo= "#"
+          />
+          <Card
+            projeto = "Lista de Tarefas"
+            descricao = "lorem impsum lorem ipsum"
+            site = "www.google.com"
+            codigo= "#"
+          />
+        </StyledContainer>
       </StyledCenter> 
       <Footer/>
     </>

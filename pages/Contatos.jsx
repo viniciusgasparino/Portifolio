@@ -12,6 +12,14 @@ const StyledContact = styled.div`
   }
 `
 
+const StyledTitulo = styled.h2`
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+`
+
 const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,6 +33,7 @@ const StyledContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 20px;
   }
 
   @media (max-width:700px){
@@ -33,13 +42,6 @@ const StyledContainer = styled.div`
   }
 `
 
-const StyledTitulo = styled.h2`
-  color: white;
-  font-size: 35px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-`
 
 function Contatos(){
   return(

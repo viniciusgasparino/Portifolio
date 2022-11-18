@@ -4,7 +4,6 @@ import Footer from "../src/components/footer/Footer"
 
 
 
-
 function HomePage(){
   return(
     <>
