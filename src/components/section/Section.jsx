@@ -70,7 +70,7 @@ function Section(){
             href="download/curriculoVinicius.pdf"
             download="curriculoVinicius.pdf"
           >
-            <Button text="Baixar Curriculo"/>
+            <Button text="Baixar Curriculo" />
           </a>
         </StyledContainer>
         <StyledContainer>

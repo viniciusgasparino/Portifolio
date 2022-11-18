@@ -10,6 +10,11 @@ const StyledButton = styled.button`
   color: white;
   font-Weight: bold;
   border-Radius: 10px;
+
+  :hover{
+    background-color: #390f8d;
+    transition: 0.5s; 
+  }
 `
  
 function Button({text}){

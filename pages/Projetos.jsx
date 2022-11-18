@@ -74,43 +74,51 @@ function Projetos(){
         <StyledCard>
           <StyledH3>Social Dev</StyledH3>
           <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <a 
+            target="_black" 
+            href="https://vercel.com/viniciusgasparino/social-dev">
+            <Button text="Ver projeto"/>
+          </a>
           <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>jogo da velha</StyledH3>
           <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <a 
+            target="_black" 
+            href="https://react-jogo-da-velha-flame.vercel.app/">
+            <Button text="Ver projeto"/>
+          </a>
+          <StyledLink href="#">Ver código</StyledLink>
+        </StyledCard>
+        <StyledCard>
+        <StyledH3>Calculadora</StyledH3>
+          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
+          <a 
+            target="_black" 
+            href="https://calculadora-one-puce.vercel.app/">
+            <Button text="Ver projeto"/>
+          </a>
           <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
         <StyledH3>Hotel Next</StyledH3>
           <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <a 
+            target="_black" 
+            href="https://hotelnext.vercel.app/">
+            <Button text="Ver projeto"/>
+          </a>
           <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
         <StyledCard>
-        <StyledH3>Hotel Next</StyledH3>
+        <StyledH3>Lista de Tarefas</StyledH3>
           <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Hotel Next</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Hotel Next</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
-          <StyledLink href="#">Ver código</StyledLink>
-        </StyledCard>
-        <StyledCard>
-        <StyledH3>Hotel Next</StyledH3>
-          <StyledText>Lorem ipsum dolor sit, amet consectetur adip</StyledText>
-          <a target="_black" href="#"><Button text="Ver projeto"/></a>
+          <a 
+            target="_black" 
+            href="https://todolist-flame-seven.vercel.app/">
+            <Button text="Ver projeto"/>
+          </a>
           <StyledLink href="#">Ver código</StyledLink>
         </StyledCard>
       </StyledContainer>~

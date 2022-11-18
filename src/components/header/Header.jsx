@@ -49,9 +49,14 @@ const StyledUl = styled.ul`
     color: white;
     text-decoration: none;
   }
+  
+  li:hover{
+    color: #9f9797;
+    transition: 0.4s; 
+  }
 
 `
-  
+
 function Header(){
   return(
     <StyledHeader>
