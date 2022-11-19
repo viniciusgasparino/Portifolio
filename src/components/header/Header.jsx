@@ -23,12 +23,8 @@ const StyledLogo = styled.div`
   flex: 1;
   margin-left: -50px;
 
-  h2{
-    font-size: 35px;
-  }
-
-  span{
-    font-size: 20px;
+  p{
+    font-size: 19px;
   }
 
   @media (max-width: 700px){

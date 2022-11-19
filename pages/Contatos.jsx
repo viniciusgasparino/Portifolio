@@ -50,15 +50,15 @@ function Contatos(){
       <StyledContact>   
         <StyledTitulo>Entre em contato</StyledTitulo>
         <StyledContainer>
-          <p><FaGithub fontSize="55" cursor="pointer"/> 
-            Lorem ipsum dolor sit amet, consectetur adipisicing
-          </p>
-          <p><FaEnvelope fontSize="45"/> 
-            Email: vinciusgasparino@yahoo.com.br
-          </p>
-          <p><FaWhatsapp fontSize="45" color="green"/>
-            Whatssap: 11974766267
-          </p>
+        <p><FaGithub fontSize="55" cursor="pointer"/> 
+          Lorem ipsum dolor sit amet, consectetur adipisicing
+        </p>
+        <p><FaEnvelope fontSize="45"/> 
+          Email: vinciusgasparino@yahoo.com.br
+        </p>
+        <p><FaWhatsapp fontSize="45" color="green"/>
+          Whatssap: 11974766267
+        </p>
         </StyledContainer>
       </StyledContact>
       <Footer/>

@@ -47,12 +47,13 @@ const StyledText = styled.p`
 `
 
 
+
 function Section(){
   return(  
     <>
       <StyledSection>
         <StyledContainer>
-          <Subtitle text="Vinicius"/>
+        <Subtitle text="Vinicius"/>
           <StyledText>FullStack, Frond-End, and Back-end Jr Developer</StyledText>
           <StyledH2>Skills</StyledH2>
           <StyledText>
@@ -74,7 +75,7 @@ function Section(){
           </a>
         </StyledContainer>
         <StyledContainer>
-          
+       
         </StyledContainer>
       </StyledSection>
     </> 

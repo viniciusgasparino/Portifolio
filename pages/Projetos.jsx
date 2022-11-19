@@ -3,6 +3,7 @@ import Header from "../src/components/header/Header"
 import Footer from "../src/components/footer/Footer"
 import Card from "../src/components/card/Card"
 
+
 const StyledTitulo = styled.h2`
   color: white;
   font-size: 35px;
@@ -39,7 +40,7 @@ function Projetos(){
       <StyledTitulo>Meus projetos</StyledTitulo> 
       <StyledCenter>
         <StyledContainer>
-          <Card
+        <Card
             projeto = "Social Dev"
             descricao = "lorem impsum lorem ipsum"
             site = "http://localhost:3000/Projetos"
