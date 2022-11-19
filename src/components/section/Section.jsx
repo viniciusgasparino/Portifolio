@@ -34,24 +34,26 @@ const StyledH2 = styled.h2`
   font-size: 25px;
 `
 
-const StyledH3 = styled.h3`
-  color: lightgreen;
-  font-size: 20px;
-`
-
-const StyledText = styled.p`
+const StyledText = styled.div`
   color: white;
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 50px;
 `
 
+const StyledH3 = styled.h3`
+  color: lightgreen;
+  font-size: 20px;
+`
 
 
 function Section(){
   return(  
     <>
       <StyledSection>
+        <StyledContainer>
+      
+        </StyledContainer>
         <StyledContainer>
         <Subtitle text="Vinicius"/>
           <StyledText>FullStack, Frond-End, and Back-end Jr Developer</StyledText>
@@ -73,9 +75,6 @@ function Section(){
           >
             <Button text="Baixar Curriculo" />
           </a>
-        </StyledContainer>
-        <StyledContainer>
-       
         </StyledContainer>
       </StyledSection>
     </> 

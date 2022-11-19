@@ -6,9 +6,9 @@ const StyledH2 = styled.h2`
   font-size: 35px;
 `
 
-function Subtitle({text}){
+function Subtitle({text,...props}){
   return(
-    <StyledH2>
+    <StyledH2 {...props}>
       {text}
     </StyledH2>
   )

@@ -28,10 +28,15 @@ const StyledText = styled.p`
 `
 
 const StyledLink = styled.a`
-  color: #f41010;
+  color: #edb55c;
   text-decoration: none;
   font-size: 17px;
   font-weight: bold;
+
+  :hover{
+    color: #85570d;
+    transition: 0.5;
+  }
 `
 
 
