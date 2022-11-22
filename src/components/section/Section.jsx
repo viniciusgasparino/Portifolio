@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Subtitle from "../subtitle/Subtitle"
 import Button from "../button/Button"
+import Foto from "../imagem/Foto"
 
 
 const StyledSection = styled.section`
@@ -52,7 +53,7 @@ function Section(){
     <>
       <StyledSection>
         <StyledContainer>
-      
+          <Foto img={"../img/foto.jpg"} width={"400px"}/>
         </StyledContainer>
         <StyledContainer>
         <Subtitle text="Vinicius"/>

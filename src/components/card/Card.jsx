@@ -39,7 +39,6 @@ const StyledLink = styled.a`
   }
 `
 
-
 function Card({projeto,descricao,site,codigo}){
   return(
     <>
@@ -51,7 +50,7 @@ function Card({projeto,descricao,site,codigo}){
           href={site}>
           <Button text="Ver projeto"/>
         </a>
-        <StyledLink href={codigo}>Ver código</StyledLink>
+        <StyledLink target="_black" href={codigo}>Ver código</StyledLink>
       </StyledCard>
     </>
   )

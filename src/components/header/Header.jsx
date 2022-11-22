@@ -50,9 +50,8 @@ const StyledUl = styled.ul`
     color: #9f9797;
     transition: 0.4s; 
   }
-
 `
-
+    
 function Header(){
   return(
     <StyledHeader>

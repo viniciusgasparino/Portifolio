@@ -37,35 +37,35 @@ function SectionProject(){
       <StyledTitulo>Meus projetos</StyledTitulo> 
       <StyledCenter>
         <StyledContainer>
-        <Card
+          <Card
             projeto = "Social Dev"
             descricao = "lorem impsum lorem ipsum"
-            site = "http://localhost:3000/Projetos"
-            codigo= "#"
+            site = "https://social-dev-six.vercel.app/Login"
+            codigo = "https://github.com/viniciusgasparino/social-dev"
           />
           <Card
             projeto = "Jogo da Velha"
             descricao = "lorem impsum lorem ipsum"
-            site = "www.google.com"
-            codigo= "#"
+            site = "https://react-jogo-da-velha-flame.vercel.app/"
+            codigo = "https://github.com/viniciusgasparino/react-jogo-da-velha"
           />
           <Card
             projeto = "Calculadora"
             descricao = "lorem impsum lorem ipsum"
-            site = "www.google.com"
-            codigo= "#"
+            site = "https://calculadora-one-puce.vercel.app/"
+            codigo= "https://github.com/viniciusgasparino/calculadora"
           />
           <Card
             projeto = "Hotel Next"
             descricao = "lorem impsum lorem ipsum"
-            site = "www.google.com"
-            codigo= "#"
+            site = "https://hotelnext.vercel.app/"
+            codigo = "https://github.com/viniciusgasparino/Hotel_Next"
           />
           <Card
             projeto = "Lista de Tarefas"
             descricao = "lorem impsum lorem ipsum"
-            site = "www.google.com"
-            codigo= "#"
+            site = "https://todolist-flame-seven.vercel.app/"
+            codigo = "https://github.com/viniciusgasparino/todoList"
           />
         </StyledContainer>
       </StyledCenter>  

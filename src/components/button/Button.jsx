@@ -16,7 +16,7 @@ const StyledButton = styled.button`
     transition: 0.5s; 
   }
 `
- 
+      
 function Button({text}){
   return(
     <>

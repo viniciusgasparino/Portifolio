@@ -14,6 +14,6 @@ function Subtitle({text,...props}){
   )
 }
 
-
+        
 
 export default Subtitle

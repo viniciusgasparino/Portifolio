@@ -46,8 +46,8 @@ function SectionContact(){
     <StyledContact>   
       <StyledTitulo>Entre em contato</StyledTitulo>
       <StyledContainer>
-        <p><FaGithub fontSize="55" cursor="pointer"/> 
-          Lorem ipsum dolor sit amet, consectetur adipisicing
+        <p><FaGithub fontSize="55" /> 
+          https://github.com/viniciusgasparino
         </p>
         <p><FaEnvelope fontSize="45"/> 
           Email: vinciusgasparino@yahoo.com.br
