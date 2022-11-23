@@ -69,7 +69,7 @@ function Section(){
             </StyledH3>
              Nodejs, NextJs, PHP, Express, MySql, MongoDb, Mongoose.
           </StyledText>
-          <a 
+          <a      
             target="_black" 
             href="download/curriculoVinicius.pdf"
             download="curriculoVinicius.pdf"

@@ -1,6 +1,8 @@
 import Subtitle from "../subtitle/Subtitle"
 import styled from "styled-components"
 import Link from "next/link"
+import {BsList,BsXLg} from "react-icons/bs"
+import {useState} from "react"
 
 const StyledHeader = styled.header`
   height: 90px;
@@ -51,8 +53,28 @@ const StyledUl = styled.ul`
     transition: 0.4s; 
   }
 `
+const StyledMobile = styled.nav`
+  display: none;
+
+  @media (max-width: 700px){
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: black;
+  }
+`
     
 function Header(){
+  const [open,setOpen] = useState(false)
+
+  const handleClick = () => {
+    if(!open) {
+      setOpen(true)
+    }else{
+      setOpen(false)
+    } 
+  }
+
   return(
     <StyledHeader>
       <StyledLogo>
@@ -64,6 +86,16 @@ function Header(){
         <Link href="/Projetos"><li>Projetos</li></Link>
         <Link href="/Contatos"><li>Contatos</li></Link>
       </StyledUl>
+
+      <StyledMobile>
+      {
+        !open ? 
+          <BsList cursor="pointer" onClick={handleClick}/> 
+        : 
+          <BsXLg cursor="pointer" onClick={handleClick}/>
+      }
+      </StyledMobile>
+      
     </StyledHeader>
   )
 }
