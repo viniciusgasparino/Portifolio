@@ -31,6 +31,7 @@ const StyledLogo = styled.div`
 
   @media (max-width: 700px){
     margin-bottom: 30px;
+    margin-left: 0px;
   }
 `
 
@@ -52,6 +53,10 @@ const StyledUl = styled.ul`
     color: #9f9797;
     transition: 0.4s; 
   }
+
+  @media (max-width: 700px){
+    display: none;
+  }
 `
 const StyledMobile = styled.nav`
   display: none;
@@ -59,7 +64,33 @@ const StyledMobile = styled.nav`
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;
-    height: 100px;
+   
+    li{
+      list-style-type: none;
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      margin-top: 30px;
+    }
+  
+    li:hover{
+      color: #9f9797;
+      transition: 0.4s; 
+      background-color: white;
+      width: 100%;
+    }
+  } 
+`
+
+const menuMobile = styled.ul`
+  display: none;
+
+  @media (max-width: 700px){
+    display: flex;
+    flex-direction: column;
+    height: 500px;
     background-color: black;
   }
 `
@@ -90,9 +121,26 @@ function Header(){
       <StyledMobile>
       {
         !open ? 
-          <BsList cursor="pointer" onClick={handleClick}/> 
+          <BsList 
+            cursor="pointer" 
+            onClick={handleClick}
+            fontSize="40px"
+          /> 
         : 
-          <BsXLg cursor="pointer" onClick={handleClick}/>
+          <BsXLg 
+            cursor="pointer" 
+            onClick={handleClick}
+            fontSize="40px"
+          />
+      }
+      {
+        open ? 
+        <menuMobile>
+          <Link href="/"><li>Home</li></Link>    
+          <Link href="/Projetos"><li>Projetos</li></Link>
+          <Link href="/Contatos"><li>Contatos</li></Link>
+        </menuMobile>
+        : null
       }
       </StyledMobile>
       
