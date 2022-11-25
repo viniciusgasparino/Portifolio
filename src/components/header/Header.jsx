@@ -1,4 +1,5 @@
 import Subtitle from "../subtitle/Subtitle"
+import MenuMobile from "../menuMobile/MenuMobile"
 import styled from "styled-components"
 import Link from "next/link"
 import {BsList,BsXLg} from "react-icons/bs"
@@ -64,36 +65,10 @@ const StyledMobile = styled.nav`
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;
-   
-    li{
-      list-style-type: none;
-      cursor: pointer;
-      font-size: 22px;
-      font-weight: bold;
-      color: white;
-      text-decoration: none;
-      margin-top: 30px;
-    }
-  
-    li:hover{
-      color: #9f9797;
-      transition: 0.4s; 
-      background-color: white;
-      width: 100%;
-    }
   } 
 `
 
-const menuMobile = styled.ul`
-  display: none;
 
-  @media (max-width: 700px){
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    background-color: black;
-  }
-`
     
 function Header(){
   const [open,setOpen] = useState(false)
@@ -117,7 +92,6 @@ function Header(){
         <Link href="/Projetos"><li>Projetos</li></Link>
         <Link href="/Contatos"><li>Contatos</li></Link>
       </StyledUl>
-
       <StyledMobile>
       {
         !open ? 
@@ -134,14 +108,9 @@ function Header(){
           />
       }
       {
-        open ? 
-        <menuMobile>
-          <Link href="/"><li>Home</li></Link>    
-          <Link href="/Projetos"><li>Projetos</li></Link>
-          <Link href="/Contatos"><li>Contatos</li></Link>
-        </menuMobile>
-        : null
+        open && <MenuMobile/>
       }
+   
       </StyledMobile>
       
     </StyledHeader>
