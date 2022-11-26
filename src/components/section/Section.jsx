@@ -54,7 +54,7 @@ function Section(){
     <>
       <StyledSection>   
         <StyledContainer>
-          <Foto img={"../img/koala.jpg"} width={"400px"}/>
+          <Foto img={"../img/foto.jpg"} width={"400px"}/>
         </StyledContainer>
         <StyledContainer>
         <Subtitle text="Vinicius"/>
