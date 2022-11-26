@@ -12,13 +12,12 @@ const StyledMenuMobile = styled.ul`
   left: 0;
   z-index: 4;
   background-color: black;
+  transition: 0.7s; 
   
 
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;
-    
-    
     
     li{
       list-style-type: none;

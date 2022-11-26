@@ -27,6 +27,7 @@ const StyledContainer = styled.div`
   @media (max-width: 700px){
     width: 100%;
     margin-bottom: 70px;
+    margin-left: 70px;
   }
 `
 
@@ -51,9 +52,9 @@ const StyledH3 = styled.h3`
 function Section(){
   return(  
     <>
-      <StyledSection>
+      <StyledSection>   
         <StyledContainer>
-          <Foto img={"../img/foto.jpg"} width={"400px"}/>
+          <Foto img={"../img/koala.jpg"} width={"400px"}/>
         </StyledContainer>
         <StyledContainer>
         <Subtitle text="Vinicius"/>

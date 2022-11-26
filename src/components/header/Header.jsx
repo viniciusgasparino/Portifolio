@@ -67,9 +67,7 @@ const StyledMobile = styled.nav`
     flex-direction: column;
   } 
 `
-
-
-    
+  
 function Header(){
   const [open,setOpen] = useState(false)
 
@@ -80,7 +78,7 @@ function Header(){
       setOpen(false)
     } 
   }
-
+      
   return(
     <StyledHeader>
       <StyledLogo>
@@ -95,7 +93,7 @@ function Header(){
       <StyledMobile>
       {
         !open ? 
-          <BsList 
+          <BsList   
             cursor="pointer" 
             onClick={handleClick}
             fontSize="40px"
@@ -108,11 +106,9 @@ function Header(){
           />
       }
       {
-        open && <MenuMobile/>
-      }
-   
+        open && <MenuMobile/>   
+      }    
       </StyledMobile>
-      
     </StyledHeader>
   )
 }

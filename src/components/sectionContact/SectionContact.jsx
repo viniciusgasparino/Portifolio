@@ -22,7 +22,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-left: 40px;
+  margin-left: 10px;
   gap: 30px;
   color: white;
   font-size: 25px;
