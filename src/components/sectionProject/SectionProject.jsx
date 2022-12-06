@@ -39,31 +39,36 @@ function SectionProject(){
         <StyledContainer>
           <Card
             projeto = "Social Dev"
-            descricao = "lorem impsum lorem ipsum"
+            descricao = "Uma rede social parecida com twiter, 
+            com o frontend feito em NextJs e StyledComponents e o backend feito com NextJs 
+            usando MongoDb para conectar com banco de dados"
             site = "https://social-dev-six.vercel.app/Login"
             codigo = "https://github.com/viniciusgasparino/social-dev"
           />
           <Card
             projeto = "Jogo da Velha"
-            descricao = "lorem impsum lorem ipsum"
+            descricao = "Jogo da velha tradicional feito com reactJs e NextJs, 
+            usando as melhores práticas de desenvolvimento FrontEnd e Lógica de Programaçao."
             site = "https://react-jogo-da-velha-flame.vercel.app/"
             codigo = "https://github.com/viniciusgasparino/react-jogo-da-velha"
           />
           <Card
             projeto = "Calculadora"
-            descricao = "lorem impsum lorem ipsum"
+            descricao = "Uma calculadora online,que faz operações básicas feita em reactJs"
             site = "https://calculadora-one-puce.vercel.app/"
             codigo= "https://github.com/viniciusgasparino/calculadora"
           />
           <Card
             projeto = "Hotel Next"
-            descricao = "lorem impsum lorem ipsum"
+            descricao = "Uma página de vendas que divulga os serviços de um hotel.
+            O projeto inicial foi feito durante o curso usando Html e Css,
+            mas eu converti ele todo em ReactJs com Styled-Components."
             site = "https://hotelnext.vercel.app/"
             codigo = "https://github.com/viniciusgasparino/Hotel_Next"
           />
           <Card
             projeto = "Lista de Tarefas"
-            descricao = "lorem impsum lorem ipsum"
+            descricao = "Um app online para listar tarefas do dia a dia,feito em ReactJs"
             site = "https://todolist-flame-seven.vercel.app/"
             codigo = "https://github.com/viniciusgasparino/todoList"
           />

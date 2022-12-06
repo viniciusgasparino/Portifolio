@@ -7,7 +7,7 @@ const StyledCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 400px;
   margin-bottom: 20px;
   width: 300px;
   gap: 10px;
