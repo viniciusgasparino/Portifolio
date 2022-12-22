@@ -9,13 +9,13 @@ const StyledSection = styled.section`
   padding: 100px 20px;
   display: flex;
   width: 100%;
-  min-height: 800px;
+  height: 100vh;
 
   @media (max-width: 700px){
     flex-direction: column;
     width: 100%;
-    height: 100%;
     padding-right: 170px;
+    height: 100%;
   }
 `
 
