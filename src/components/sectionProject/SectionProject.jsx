@@ -68,10 +68,16 @@ function SectionProject(){
             codigo = "https://github.com/viniciusgasparino/Hotel_Next"
           />
           <Card
-            projeto = "Lista de Tarefas"
-            descricao = "Um app online para listar tarefas do dia a dia,feito em ReactJs"
-            site = "https://todolist-flame-seven.vercel.app/"
-            codigo = "https://github.com/viniciusgasparino/todoList"
+            projeto = "Clima Dev"
+            descricao = "Um aplicativo online para ver o clima de sua cidade, usando a api de Clima openWheater, com NextJs, StyledComponents e ReactJs."
+            site = "https://clima-dev-devchallenge1-kappa.vercel.app/"
+            codigo = "https://github.com/viniciusgasparino/climaDev-devchallenge1"
+          />
+          <Card
+            projeto = "App de anotações"
+            descricao = "Um aplicativo para fazer anotações em texto, online, feito em React, Nextjs, StyledComponetns com crud completo. BackEnd em construção."
+            site = "https://app-de-anotacoes.vercel.app/"
+            codigo = "https://github.com/viniciusgasparino/appDeAnotacoes"
           />
         </StyledContainer>
       </StyledCenter>  

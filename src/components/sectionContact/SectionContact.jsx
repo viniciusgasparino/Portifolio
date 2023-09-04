@@ -8,7 +8,6 @@ const StyledContact = styled.div`
   @media (max-width:700px){
     width: 100%;
     height: 100%;
-   // margin-right: 70px;
     margin-bottom: 200px;
   }
 `
